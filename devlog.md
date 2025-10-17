@@ -1,0 +1,2 @@
+10/17/2025 12:13 AM
+I know that the project is about encrypting strings and that there will be three programs. The first program is the driver that prompts the user for everything. There will be an encryption program that encrypts and decrypts strings. Lastly a logger program that tracks what has been done. My plan is to work on the logger first since it seems the most simple since it is just writing to a file in a specific format. After that I will work on the encryption and this will most likely take the longest. Will start the logger later in the day.
