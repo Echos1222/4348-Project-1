@@ -1,0 +1,5 @@
+START This is the beginning
+INFO Everything is working
+ERROR Something went wrong
+DEBUG Just checking details
+QUIT
