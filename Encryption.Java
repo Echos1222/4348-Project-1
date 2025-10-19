@@ -41,7 +41,7 @@ public class Encryption{
     
     private static void setPassword(String newPassword) {
         password = newPassword;
-        System.out.println("RESULT");
+        System.out.println("RESULT "+newPassword);
     }
 
    

@@ -9,3 +9,4 @@ Think im gonna just add my format and writing to file logic before my loop as so
 Did not accomplish my goals for the session since I have to end the session early. Did at least accomplish completely finishing my logger program and ended up not going the method route. Next session will begin work on the encryption program and I plan to complete it since my next session will be longer.
 10/19/2025 9:16 AM
 Since the last session I think for the driver I have an idea on initializing the processes and the overall design of what main will look like. This session I will start and complete the encryption program since the bulk of difficulty is due to the cipher but since that is easy to test on its on should be no big deals. The goal is to get the entire encryption program done since it can be developed independently just like logger.
+10/19/2025
