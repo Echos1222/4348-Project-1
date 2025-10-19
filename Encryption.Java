@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-
 public class Encryption{
     private static String password = "";
 
