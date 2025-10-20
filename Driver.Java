@@ -92,7 +92,12 @@ public class Driver {
         String input;
 
         while (true) {
-            System.out.print("Enter command: ");
+            System.out.println("PASSWORD");
+            System.out.println("ENCRYPT");
+            System.out.println("DECRYPT");
+            System.out.println("HISTORY");
+            System.out.println("QUIT");
+             System.out.print("Enter command: ");
             input = scanner.nextLine();
             loggerInput.println("User " + input);
             loggerInput.flush();
