@@ -1,4 +1,7 @@
 import java.util.Scanner;
+
+// Encrypts using vignere cypher and allows users to set the passkey
+
 public class Encryption{
     private static String password = "";
 
@@ -13,11 +16,14 @@ public class Encryption{
         }
     }
 
+    // Determines what operation will be done
+
     private static void Command(String input) {
         input = input.trim();                   
         if (input.isEmpty()) return;            
         
-       
+       // seperates command from text 
+
         String[] parts = input.split("\\s+", 2);
         String action = parts[0].toUpperCase();
 
@@ -43,7 +49,9 @@ public class Encryption{
     }
 
    
-    private static void encrypt(String message,String key) {
+    // takes in the text to be encrypted with the key and uses the logic to create the cipher.
+
+    public static void encrypt(String message,String key) {
         if (password.isEmpty()) {
             System.out.println("ERROR Passkey not set");
         } else {
@@ -63,6 +71,8 @@ public class Encryption{
          System.out.println("RESULT " + encrypted);
     }
     }
+     // takes in the text to be decryped with the key and uses the logic to crack the cipher.
+
     public static void decrypt(String message,String key) {
         if (password.isEmpty()) {
             System.out.println("ERROR Passkey not set");
